@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ai-headershot.sora.makeup/
+
+# Sitemaps
+Sitemap: https://ai-headershot.sora.makeup/sitemap.xml
