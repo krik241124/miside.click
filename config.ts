@@ -3,12 +3,12 @@ import { ConfigProps } from "./types/config";
 
 const config = {
   // REQUIRED
-  appName: "AI-Headershot",
+  appName: "AWPortraitFL",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "AI-Headershot is the ultimate hub for all things related to AI-generated headshot technology. Explore cutting-edge tools, comprehensive guides, and breaking news about the revolutionary journey of AI portrait creation.",
+    "AWPortraitFL is your go-to source for exploring the cutting-edge advancements in realistic AI-driven portrait rendering. Discover the latest features, guides, and news about the Flux-based model that sets a new standard in visual detail and accuracy.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "AI-headershot.sora.makeup",
+  domainName: "AWPortraitFL.sora.makeup",
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.
     id: "",

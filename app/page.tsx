@@ -19,6 +19,7 @@ export default function Home() {
         <Examples />
         <Features />
         <Steps />
+        <Experience />
         <FAQ />
       </main>
       <Footer />

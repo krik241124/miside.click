@@ -38,7 +38,7 @@ const TOS = () => {
 
 Welcome to ${config.appName}!
 
-These Terms of Service ("Terms") govern your use of the ${config.appName} website at https://black-myth-wukong.top ("Website") and the services provided by ${config.appName}. By using our Website and services, you agree to these Terms.
+These Terms of Service ("Terms") govern your use of the ${config.appName} website at https://${config.domainName} ("Website") and the services provided by ${config.appName}. By using our Website and services, you agree to these Terms.
 
 1. Description of ${config.appName}
 
@@ -50,7 +50,7 @@ The content shared on ${config.appName}, including text, images, and videos, is 
 
 3. User Data and Privacy
 
-We collect and store user data, including name and email, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://black-myth-wukong.top/privacy-policy.
+We collect and store user data, including name and email, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://${config.domainName}/privacy-policy.
 
 4. Non-Personal Data Collection
 
@@ -64,7 +64,7 @@ These Terms are governed by the laws of China.
 
 We may update these Terms from time to time. Users will be notified of any changes via email.
 
-For any questions or concerns regarding these Terms of Service, please contact us at [Your Contact Email].
+For any questions or concerns regarding these Terms of Service, please contact us at support@${config.domainName}.
 
 Thank you for visiting ${config.appName}!`}
         </pre>

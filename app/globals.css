@@ -5,8 +5,9 @@
 html,
 body {
   scroll-behavior: smooth !important;
-  background-color: #121212; /* 使用黑色背景符合黑神话的主题 */
-  color: #e0e0e0; /* 调整文本颜色，使其在深色背景下更易读 */
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333333; /* Darker text color for better readability */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern, clean font */
 }
 
 progress::-webkit-progress-value {
@@ -15,7 +16,7 @@ progress::-webkit-progress-value {
 
 @layer base {
   .bg-gradient {
-    @apply bg-gradient-to-r from-purple-400 via-pink-500 to-red-500; /* Define the gradient background */
+    @apply bg-gradient-to-r from-blue-400 via-cyan-500 to-indigo-500; /* Modern, tech-inspired gradient */
   }
 
   .btn-gradient {
@@ -23,6 +24,14 @@ progress::-webkit-progress-value {
   }
 
   .btn {
-    @apply capitalize;
+    @apply capitalize font-medium text-lg px-6 py-3 rounded-lg; /* Larger, bolder buttons */
+  }
+
+  .section-title {
+    @apply text-3xl font-bold mb-6; /* Larger, more prominent section titles */
+  }
+
+  .section-content {
+    @apply text-lg; /* Slightly larger body text */
   }
 }

@@ -6,45 +6,50 @@ const steps = [
   {
     number: "1",
     title: "Visit the Official Website",
-    description: "Start your journey by visiting the official HivisionIDPhotos website for the latest updates and features.",
+    description: "Start by visiting the AWPortrait FL official website for the latest updates and features.",
     linkText: "Go to Official Website",
-    linkUrl: "https://swanhub.co/ZeYiLin/HivisionIDPhotos/demo"
+    linkUrl: "https://huggingface.co/Shakker-Labs/AWPortrait-FL"
   },
   {
     number: "2",
     title: "Explore the Features",
-    description: "Learn about the advanced features of HivisionIDPhotos, including background removal, photo generation, and printing options.",
+    description: "Learn about the advanced features of AWPortrait FL, including background removal and portrait generation.",
     linkText: "Explore Features",
-    linkUrl: "https://swanhub.co/ZeYiLin/HivisionIDPhotos/demo"
+    linkUrl: "https://huggingface.co/Shakker-Labs/AWPortrait-FL"
   },
   {
     number: "3",
-    title: "Get the App",
-    description: "Download the HivisionIDPhotos app and start creating professional ID photos from your desktop or mobile device.",
-    linkText: "Download App",
-    linkUrl: "https://swanhub.co/ZeYiLin/HivisionIDPhotos/demo"
+    title: "Get the Model",
+    description: "Download AWPortrait FL and start creating lifelike portraits with unmatched realism.",
+    linkText: "Download Model",
+    linkUrl: "https://huggingface.co/Shakker-Labs/AWPortrait-FL"
   },
   {
     number: "4",
     title: "Contact Support",
-    description: "If you need help or have questions, reach out to our dedicated support team for assistance.",
+    description: "Need help? Reach out to our support team for assistance.",
   }
 ];
 
 const Steps = () => {
   return (
-    <section className="bg-gray-900 text-gray-100 py-16">
+    <section className="bg-white text-gray-800 py-16">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-12 text-yellow-500">Get Started with HivisionIDPhotos</h2>
+        <h2 className="text-4xl font-bold mb-12 text-blue-600">Get Started with AWPortrait FL</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {steps.map((step, index) => (
-            <div key={index} className="p-8 bg-gray-800 rounded-lg shadow-md">
-              <span className="text-5xl font-bold text-yellow-500 mb-4 block">{step.number}</span>
-              <h3 className="text-2xl font-bold mb-4">{step.title}</h3>
+            <div key={index} className="bg-gray-100 rounded-lg p-6 shadow-md">
+              <div className="text-blue-600 text-4xl font-bold mb-4">{step.number}</div>
+              <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
               <p className="mb-4">{step.description}</p>
-              <a href={step.linkUrl} className="text-yellow-500 underline">
-                {step.linkText}
-              </a>
+              {step.linkText && (
+                <a
+                  href={step.linkUrl}
+                  className="text-blue-600 underline hover:text-blue-800"
+                >
+                  {step.linkText}
+                </a>
+              )}
             </div>
           ))}
         </div>

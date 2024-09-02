@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://ai-headershot.sora.makeup/
+Host: https://AWPortraitFL.sora.makeup/
 
 # Sitemaps
-Sitemap: https://ai-headershot.sora.makeup/sitemap.xml
+Sitemap: https://AWPortraitFL.sora.makeup/sitemap.xml

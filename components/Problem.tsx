@@ -2,28 +2,24 @@ import React from 'react';
 
 const images = [
   '/1.jpg',
-  '/2.jpg',
-  '/3.jpg',
-  '/4.jpg',
 ];
 
 const Examples = () => {
   return (
-    <section className="text-neutral-content py-8">
-      <section className="bg-gray-900 text-gray-100 py-8">
+    <section className="text-gray-800 py-8">
+      <section className="bg-white text-gray-800 py-8">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-yellow-500 mb-4">Examples of ID Photos Created with HivisionIDPhotos</h1>
-          <p className="text-lg mb-2">Check out these sample ID photos generated using our tool.</p>
-          <a href="/gallery" className="text-yellow-500 underline">View More Examples</a>
+          <h1 className="text-3xl font-bold text-blue-600 mb-4">Examples of AWPortrait FL</h1>
+          <p className="text-lg mb-2">Explore the fine details and realism in our sample images.</p>
+          <a href="/gallery" className="text-blue-600 underline">View More Examples</a>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+        <div className="flex justify-center">
           {images.map((image, index) => (
-            <div key={index} className="relative">
+            <div key={index} className="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 relative">
               <img
-                className="w-full h-64 md:h-80 rounded-lg shadow-lg"
+                className="w-full h-auto rounded-lg shadow-md"
                 src={image}
-                alt={`HivisionIDPhotos Example ${index + 1}`}
+                alt={`AWPortrait FL Example ${index + 1}`}
               />
             </div>
           ))}
