@@ -4,44 +4,28 @@ import React from "react";
 
 const faq = [
   {
-    question: "What is Black Myth: Wukong?",
-    answer: "Black Myth: Wukong is an upcoming action RPG inspired by the classic Chinese novel 'Journey to the West.' It features stunning graphics, intense combat, and a deep narrative rooted in Chinese mythology."
+    question: "What is HivisionIDPhotos?",
+    answer: "HivisionIDPhotos is a professional tool for creating high-quality ID photos from your desktop or mobile device. It offers easy-to-use editing features and various printing options to ensure your photos meet official requirements."
   },
   {
-    question: "When is the release date for Black Myth: Wukong?",
-    answer: "The release date for Black Myth: Wukong has not been officially announced yet, but it is highly anticipated by fans around the world."
+    question: "How can I download the HivisionIDPhotos app?",
+    answer: "You can download the HivisionIDPhotos app directly from our website. Visit the 'Download App' section to get started."
   },
   {
-    question: "On which platforms will Black Myth: Wukong be available?",
-    answer: "Black Myth: Wukong is expected to be available on major platforms including PlayStation, Xbox, and PC."
+    question: "What platforms are supported by HivisionIDPhotos?",
+    answer: "HivisionIDPhotos is available for both desktop and mobile platforms, ensuring you can create ID photos anytime, anywhere."
   },
   {
-    question: "What are the key features of Black Myth: Wukong?",
-    answer: "Key features include fluid and dynamic combat, a variety of magical abilities inspired by Chinese folklore, and a richly detailed world filled with legendary creatures and epic boss battles."
+    question: "How do I get support if I encounter issues?",
+    answer: "Our dedicated support team is ready to assist you. Visit the 'Contact Support' section on our website to reach out."
   },
   {
-    question: "Is there a demo available for Black Myth: Wukong?",
-    answer: "As of now, there is no publicly available demo for Black Myth: Wukong. However, gameplay trailers and teasers have been released, showcasing the game's impressive visuals and mechanics."
+    question: "Can I customize the photo size and format?",
+    answer: "Yes, HivisionIDPhotos allows you to customize the size and format of your ID photos, ensuring they meet specific requirements."
   },
   {
-    question: "What is the story behind Black Myth: Wukong?",
-    answer: "The story follows the Monkey King, Sun Wukong, on his journey through a mythical land filled with gods, demons, and other fantastical creatures, drawing heavily from 'Journey to the West.'"
-  },
-  {
-    question: "Will Black Myth: Wukong have multiplayer or co-op features?",
-    answer: "The developers have not confirmed multiplayer or co-op features for Black Myth: Wukong. The game appears to be focused on a single-player experience."
-  },
-  {
-    question: "Who is developing Black Myth: Wukong?",
-    answer: "Black Myth: Wukong is being developed by Game Science, a Chinese indie studio known for its dedication to creating high-quality games with a deep cultural resonance."
-  },
-  {
-    question: "How can I stay updated on Black Myth: Wukong?",
-    answer: "You can follow the official social media channels of Game Science and Black Myth: Wukong, as well as keep an eye on gaming news websites for the latest updates."
-  },
-  {
-    question: "Will Black Myth: Wukong feature traditional Chinese elements?",
-    answer: "Yes, Black Myth: Wukong is heavily influenced by traditional Chinese culture and mythology, offering a unique blend of historical and fantastical elements."
+    question: "Are there any subscription fees for using HivisionIDPhotos?",
+    answer: "HivisionIDPhotos offers a variety of pricing plans, including a free version with basic features and premium subscriptions for advanced tools."
   }
 ];
 

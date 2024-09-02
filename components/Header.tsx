@@ -4,13 +4,13 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/app/icon.png";
+import logo from "@/app/icon.png";  // 你可以用一个新的HivisionIDPhotos logo替代这个
 import config from "@/config";
 
 const links = [
-  { href: "/wukong-story", label: "Story" },
-  { href: "/wukong-gameplay", label: "Gameplay" },
-  { href: "/wukong-characters", label: "Characters" },
+  { href: "/id-photo-generation", label: "ID Photo Generation" },
+  { href: "/background-removal", label: "Background Removal" },
+  { href: "/six-inch-photo-layout", label: "Six-Inch Photo Layout" },
 ];
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
   }, [searchParams]);
 
   return (
-    <header className="bg-gray-900 shadow-sm py-4">
+    <header className="bg-blue-900 shadow-sm py-4">
       <nav className="container flex items-center justify-between px-4 mx-auto">
         <div className="flex items-center">
           <Link href="/" className="flex items-center gap-2" title={`${config.appName} homepage`}>
@@ -49,7 +49,6 @@ const Header = () => {
           ))}
         </div>
 
-        {/* Removed ButtonSignin and adjusted flex layout */}
         <div className="lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}

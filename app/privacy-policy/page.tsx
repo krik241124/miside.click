@@ -34,9 +34,9 @@ const PrivacyPolicy = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: August 21, 2024
+          {`Last Updated: September 2, 2024
 
-Thank you for visiting Black Myth Wukong ("we," "us," or "our"). This Privacy Policy outlines how we collect, use, and protect your personal and non-personal information when you use our website located at https://black-myth-wukong.top (the "Website").
+Thank you for visiting ${config.appName} ("we," "us," or "our"). This Privacy Policy outlines how we collect, use, and protect your personal and non-personal information when you use our website located at https://black-myth-wukong.top (the "Website").
 
 By accessing or using the Website, you agree to the terms of this Privacy Policy. If you do not agree with the practices described in this policy, please do not use the Website.
 
@@ -55,7 +55,7 @@ We may use web cookies and similar technologies to collect non-personal informat
 
 2. Purpose of Data Collection
 
-We collect and use your personal data to keep you informed about the latest updates on Black Myth: Wukong, manage your account, and facilitate community interaction.
+We collect and use your personal data to keep you informed about the latest updates on ${config.appName}, manage your account, and facilitate community interaction.
 
 3. Data Sharing
 
@@ -63,7 +63,7 @@ We do not share your personal data with any third parties except as required for
 
 4. Children's Privacy
 
-Black Myth Wukong is not intended for children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at the email address provided below.
+${config.appName} is not intended for children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at the email address provided below.
 
 5. Updates to the Privacy Policy
 
@@ -77,7 +77,7 @@ Email: support@black-myth-wukong.top
 
 For all other inquiries, please visit our Contact Us page on the Website.
 
-By using Black Myth Wukong, you consent to the terms of this Privacy Policy.`}
+By using ${config.appName}, you consent to the terms of this Privacy Policy.`}
         </pre>
       </div>
     </main>

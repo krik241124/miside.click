@@ -36,7 +36,7 @@ const Footer = () => {
               Copyright © {new Date().getFullYear()} - All rights reserved
             </p>
             <p className="mt-1 text-sm text-gray-600">
-              support@black-myth-wukong.top
+              support@hivisionidphotos.com
             </p>
           </div>
           <div className="flex-grow flex flex-wrap justify-center -mb-10 md:mt-0 mt-10 text-center">
@@ -46,14 +46,14 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
-                <Link href="/wukong-story" className="link link-hover text-gray-400 hover:text-yellow-500">
-                  Story
+                <Link href="/id-photo-generation" className="link link-hover text-gray-400 hover:text-yellow-500">
+                  id-photo-generation
                 </Link>
-                <Link href="/wukong-gameplay" className="link link-hover text-gray-400 hover:text-yellow-500">
-                  Gameplay
+                <Link href="/background-removal" className="link link-hover text-gray-400 hover:text-yellow-500">
+                  background-removal
                 </Link>
-                <Link href="/wukong-characters" className="link link-hover text-gray-400 hover:text-yellow-500">
-                  Characters
+                <Link href="/six-inch-photo-layout" className="link link-hover text-gray-400 hover:text-yellow-500">
+                  six-inch-photo-layout
                 </Link>
               </div>
             </div>
@@ -65,10 +65,10 @@ const Footer = () => {
 
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
                 <Link href="/tos" className="link link-hover text-gray-400 hover:text-yellow-500">
-                  Terms of services
+                  Terms of Service
                 </Link>
                 <Link href="/privacy-policy" className="link link-hover text-gray-400 hover:text-yellow-500">
-                  Privacy policy
+                  Privacy Policy
                 </Link>
               </div>
             </div>

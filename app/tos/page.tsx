@@ -34,19 +34,19 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: August 21, 2024
+          {`Last Updated: September 2, 2024
 
-Welcome to Black Myth Wukong!
+Welcome to ${config.appName}!
 
-These Terms of Service ("Terms") govern your use of the Black Myth Wukong website at https://black-myth-wukong.top ("Website") and the services provided by Black Myth Wukong. By using our Website and services, you agree to these Terms.
+These Terms of Service ("Terms") govern your use of the ${config.appName} website at https://black-myth-wukong.top ("Website") and the services provided by ${config.appName}. By using our Website and services, you agree to these Terms.
 
-1. Description of Black Myth Wukong
+1. Description of ${config.appName}
 
-Black Myth Wukong is a fan-driven platform designed to share information, updates, and community content related to the game Black Myth: Wukong.
+${config.appName} is a platform designed to share information, updates, and community content related to ${config.appName}.
 
 2. Content Ownership and Usage Rights
 
-The content shared on Black Myth Wukong, including text, images, and videos, is owned by the respective creators. By contributing content, you grant us a non-exclusive right to display it on the Website. You retain ownership but do not have the right to resell any content hosted on the site.
+The content shared on ${config.appName}, including text, images, and videos, is owned by the respective creators. By contributing content, you grant us a non-exclusive right to display it on the Website. You retain ownership but do not have the right to resell any content hosted on the site.
 
 3. User Data and Privacy
 
@@ -66,7 +66,7 @@ We may update these Terms from time to time. Users will be notified of any chang
 
 For any questions or concerns regarding these Terms of Service, please contact us at [Your Contact Email].
 
-Thank you for visiting Black Myth Wukong!`}
+Thank you for visiting ${config.appName}!`}
         </pre>
       </div>
     </main>

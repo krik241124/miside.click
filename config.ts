@@ -3,12 +3,12 @@ import { ConfigProps } from "./types/config";
 
 const config = {
   // REQUIRED
-  appName: "Black-Myth-Wukong",
+  appName: "AI-Headershot",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "Black Myth Wukong is the ultimate hub for all things related to the epic game Black Myth: Wukong. Explore gameplay, guides, and news about the legendary journey of the Monkey King.",
+    "AI-Headershot is the ultimate hub for all things related to AI-generated headshot technology. Explore cutting-edge tools, comprehensive guides, and breaking news about the revolutionary journey of AI portrait creation.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "black-myth-wukong.top",
+  domainName: "AI-headershot.sora.makeup",
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.
     id: "",
