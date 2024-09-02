@@ -3,12 +3,12 @@ import { ConfigProps } from "./types/config";
 
 const config = {
   // REQUIRED
-  appName: "AWPortraitFL",
+  appName: "YOLOv8",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "AWPortraitFL is your go-to source for exploring the cutting-edge advancements in realistic AI-driven portrait rendering. Discover the latest features, guides, and news about the Flux-based model that sets a new standard in visual detail and accuracy.",
+    "YOLOv8 is your go-to resource for mastering the latest advancements in real-time object detection and AI-driven data analysis. Discover tutorials, insights, and news on leveraging YOLOv8 for cutting-edge applications in computer vision.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "AWPortraitFL.sora.makeup",
+  domainName: "YOLOv8.sora.makeup",
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.
     id: "",

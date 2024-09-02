@@ -7,7 +7,7 @@ import logo from "@/app/icon.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 border-t border-gray-200">
+    <footer className="bg-gray-100 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-8 py-24">
         <div className="flex lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -36,7 +36,7 @@ const Footer = () => {
               Copyright © {new Date().getFullYear()} - All rights reserved
             </p>
             <p className="mt-1 text-sm text-gray-400">
-              support@awportraitfl.com
+              support@{config.appName}.sora.makeup
             </p>
           </div>
           <div className="flex-grow flex flex-wrap justify-center -mb-10 md:mt-0 mt-10 text-center">
@@ -46,11 +46,11 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
-                <Link href="/realistic-rendering" className="link link-hover text-gray-500 hover:text-blue-600">
-                  Realistic Rendering
+                <Link href="/object-detection" className="link link-hover text-gray-500 hover:text-blue-600">
+                  Object Detection
                 </Link>
-                <Link href="/flux-architecture" className="link link-hover text-gray-500 hover:text-blue-600">
-                  Flux Architecture
+                <Link href="/data-visualization" className="link link-hover text-gray-500 hover:text-blue-600">
+                  Data Visualization
                 </Link>
               </div>
             </div>

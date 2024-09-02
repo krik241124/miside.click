@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://AWPortraitFL.sora.makeup/
+Host: https://YOLOv8.sora.makeup/
 
 # Sitemaps
-Sitemap: https://AWPortraitFL.sora.makeup/sitemap.xml
+Sitemap: https://YOLOv8.sora.makeup/sitemap.xml

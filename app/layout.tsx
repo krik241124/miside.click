@@ -19,14 +19,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en" data-theme={config.colors.theme} className={inter.variable}>
       <head>
         {/* Insert Google Analytics script directly into the head */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CWRRB52FH"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FDDV1G99LY"></script>
         <script dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-2CWRRB52FH');
+            gtag('config', 'G-FDDV1G99LY');
           `,
         }} />
       </head>

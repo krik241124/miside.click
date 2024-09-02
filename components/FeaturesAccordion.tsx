@@ -6,32 +6,32 @@ import { FaCut, FaRegImages, FaPalette, FaPrint } from "react-icons/fa";
 const features = [
   {
     icon: <FaCut />,
-    title: "Precision Background Removal",
-    description: "Remove backgrounds with advanced precision, perfect for high-quality photo production."
+    title: "Precision Object Detection",
+    description: "Detect and track objects in real-time with high accuracy using YOLOv8's cutting-edge technology.",
   },
   {
     icon: <FaRegImages />,
-    title: "Realistic Portrait Generation",
-    description: "Generate lifelike portraits with stunning detail and accuracy."
+    title: "Advanced Segmentation",
+    description: "Segment objects within your video streams for detailed analysis and visualization.",
   },
   {
     icon: <FaPalette />,
-    title: "Customizable Backgrounds",
-    description: "Tailor your backgrounds to meet the artistic needs of your project."
+    title: "Customizable Data Visualizations",
+    description: "Generate tailored charts and graphs for better insight into detected objects and their attributes.",
   },
   {
     icon: <FaPrint />,
-    title: "Optimized Print Layouts",
-    description: "Ensure your images are print-ready with optimized layouts."
-  }
+    title: "Seamless Integration",
+    description: "Easily integrate YOLOv8 into your existing video analysis pipelines with optimized performance.",
+  },
 ];
 
 const Features = () => {
   return (
     <section className="py-16 bg-white text-gray-800">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-8 text-blue-600">AWPortrait FL Features</h2>
-        <p className="mb-12">Uncover the features that make AWPortrait FL the ultimate tool for realistic photo generation.</p>
+        <h2 className="text-4xl font-bold mb-8 text-blue-600">YOLOv8 Features</h2>
+        <p className="mb-12">Explore the powerful features that make YOLOv8 a leader in object detection and video analysis.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="p-6 bg-gray-100 rounded-lg shadow-md">

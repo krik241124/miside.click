@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://AWPortraitFL.sora.makeup/', // 替换为你的实际网站URL
+  siteUrl: 'https://YOLOv8.sora.makeup/', // 替换为你的实际网站URL
   generateRobotsTxt: true, // 是否生成robots.txt文件
   sitemapSize: 5000, // 可选，定义每个sitemap的最大URL数量
   exclude: ['/secret-page'], // 可选，排除特定页面
