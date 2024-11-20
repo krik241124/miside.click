@@ -19,7 +19,16 @@ const DataVisualization = () => {
         <h1 className="text-3xl font-extrabold pb-6">Data Visualization</h1>
         {/* 添加嵌入的 iframe */}
         <div className="flex justify-center my-6">
-          
+          <iframe
+            src="https://scratch.mit.edu/projects/725916250/embed"
+            allowTransparency={true}
+            width="485"
+            height="402"
+            frameBorder="0"
+            scrolling="no"
+            allowFullScreen
+            className="shadow-lg"
+          ></iframe>
         </div>
       </main>
       <Footer />

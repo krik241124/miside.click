@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://YOLOv8.sora.makeup/
+Host: https://ubg76.top/
 
 # Sitemaps
-Sitemap: https://YOLOv8.sora.makeup/sitemap.xml
+Sitemap: https://ubg76.top/sitemap.xml

@@ -35,3 +35,18 @@ progress::-webkit-progress-value {
     @apply text-lg; /* Slightly larger body text */
   }
 }
+.bg-ubg76-light {
+  background-color: #f9f9fc; /* 明亮的白灰背景 */
+}
+
+.text-ubg76-gold {
+  color: #d4af37; /* 温暖的金色 */
+}
+
+.bg-ubg76-white {
+  background-color: #ffffff; /* 纯白色背景 */
+}
+
+.text-gray-800 {
+  color: #4a4a4a; /* 深灰色字体，适合亮背景 */
+}

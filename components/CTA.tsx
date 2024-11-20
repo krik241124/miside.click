@@ -4,52 +4,49 @@ import React from "react";
 
 const steps = [
   {
-    number: "1",
-    title: "Understand YOLOv8",
-    description: "Learn the fundamentals of YOLOv8 and how it can enhance your video analysis workflows.",
-    linkText: "Learn More",
-    linkUrl: "https://t.co/sOwMQec5KB",
+    title: "Discover Unblocked Games 76",
+    description:
+      "Welcome to T1 game publisher at ubg76.top. Enjoy playing your favorite casual games anywhere, including the classroom, office, or home.",
+    icon: "🎮",
   },
   {
-    number: "2",
-    title: "Set Up Your Environment",
-    description: "Get started by setting up the necessary tools and environment to use YOLOv8 effectively.",
-    linkText: "Set Up Guide",
-    linkUrl: "https://t.co/sOwMQec5KB",
+    title: "Explore Diverse Game Genres",
+    description:
+      "Experience top titles like Roblox, Minecraft, Shell Shockers, Slope, and Basketball Stars. Our HTML5 browser games list has something for everyone.",
+    icon: "🕹️",
   },
   {
-    number: "3",
-    title: "Implement Object Detection",
-    description: "Integrate YOLOv8 into your projects to start detecting and analyzing objects in real-time.",
-    linkText: "Implementation Guide",
-    linkUrl: "https://t.co/sOwMQec5KB",
+    title: "User-Friendly Design",
+    description:
+      "Navigate with ease and find the games you love without hassle. Unblocked Games 76 is designed to make discovering and playing games as smooth as possible.",
+    icon: "✨",
   },
   {
-    number: "4",
-    title: "Analyze and Visualize Data",
-    description: "Leverage powerful data visualization tools to gain deeper insights into your video data.",
+    title: "Play Anytime, Anywhere",
+    description:
+      "Access a wide range of games on any device without downloads. Dive into engaging puzzle, strategy, parkour, or popular browser games whenever you like.",
+    icon: "🌐",
   },
 ];
 
 const Steps = () => {
   return (
-    <section className="bg-white text-gray-800 py-16">
+    <section className="py-12 bg-white text-gray-800">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-12 text-blue-600">Get Started with YOLOv8</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <h2 className="text-3xl font-bold mb-8 text-blue-600">
+          How to Enjoy Unblocked Games 76
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((step, index) => (
-            <div key={index} className="bg-gray-100 rounded-lg p-6 shadow-md">
-              <div className="text-blue-600 text-4xl font-bold mb-4">{step.number}</div>
-              <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-              <p className="mb-4">{step.description}</p>
-              {step.linkText && (
-                <a
-                  href={step.linkUrl}
-                  className="text-blue-600 underline hover:text-blue-800"
-                >
-                  {step.linkText}
-                </a>
-              )}
+            <div
+              key={index}
+              className="flex flex-col items-center bg-gray-100 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300"
+            >
+              <div className="text-4xl mb-4">{step.icon}</div>
+              <h3 className="text-xl font-bold mb-2 text-gray-700">
+                {step.title}
+              </h3>
+              <p className="text-gray-600 text-sm">{step.description}</p>
             </div>
           ))}
         </div>
