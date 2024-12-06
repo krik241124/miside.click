@@ -3,7 +3,7 @@ import { ConfigProps } from "./types/config";
 
 const config = {
   // REQUIRED
-  appName: "ubg76.top",
+  appName: "UBG76 - Free Unblocked Games Online",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
     "Explore ubg76.top for exciting unblocked games! Enjoy seamless, legal, and unrestricted gaming anywhere—no downloads needed. Your ultimate gaming destination!",
