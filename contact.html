@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - MiSide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-text {
+            @apply bg-gradient-to-r from-accent via-purple-500 to-blue-500 text-transparent bg-clip-text;
+        }
+    </style>
+</head>
+<body class="bg-primary text-ghost">
+    <!-- Copy Navigation from index.html -->
+
+    <main class="pt-20 pb-16">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h1 class="text-4xl md:text-5xl font-bold gradient-text mb-8">Contact Us</h1>
+            
+            <!-- Contact Form -->
+            <div class="bg-secondary/20 rounded-xl p-8 mb-12">
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-ghost mb-2">Name</label>
+                        <input type="text" id="name" name="name" 
+                               class="w-full px-4 py-2 rounded-lg bg-primary border border-accent/20 text-ghost focus:border-accent focus:outline-none">
+                    </div>
+                    
+                    <div>
+                        <label for="email" class="block text-ghost mb-2">Email</label>
+                        <input type="email" id="email" name="email" 
+                               class="w-full px-4 py-2 rounded-lg bg-primary border border-accent/20 text-ghost focus:border-accent focus:outline-none">
+                    </div>
+                    
+                    <div>
+                        <label for="subject" class="block text-ghost mb-2">Subject</label>
+                        <select id="subject" name="subject" 
+                                class="w-full px-4 py-2 rounded-lg bg-primary border border-accent/20 text-ghost focus:border-accent focus:outline-none">
+                            <option value="support">Technical Support</option>
+                            <option value="feedback">Game Feedback</option>
+                            <option value="business">Business Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-ghost mb-2">Message</label>
+                        <textarea id="message" name="message" rows="6" 
+                                  class="w-full px-4 py-2 rounded-lg bg-primary border border-accent/20 text-ghost focus:border-accent focus:outline-none"></textarea>
+                    </div>
+                    
+                    <button type="submit" 
+                            class="w-full bg-accent hover:bg-accent/90 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <!-- Alternative Contact Methods -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-secondary/20 p-6 rounded-xl">
+                    <h3 class="text-xl font-semibold mb-4">Email Support</h3>
+                    <p class="text-ghost/80">For general inquiries:</p>
+                    <a href="mailto:support@miside.click" class="text-accent hover:underline">support@miside.click</a>
+                </div>
+                
+                <div class="bg-secondary/20 p-6 rounded-xl">
+                    <h3 class="text-xl font-semibold mb-4">GitHub Issues</h3>
+                    <p class="text-ghost/80">For bug reports and technical issues:</p>
+                    <a href="https://github.com/krik241124/miside.click/issues" class="text-accent hover:underline">Submit an Issue</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Copy Footer from index.html -->
+</body>
+</html>

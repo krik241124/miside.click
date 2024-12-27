@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://ubg76.top/
-
-# Sitemaps
-Sitemap: https://ubg76.top/sitemap.xml
