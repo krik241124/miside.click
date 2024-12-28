@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Root directory pages -->
+  <url>
+    <loc>https://www.miside.click/</loc>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.miside.click/ja/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.miside.click/ru/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.miside.click/fr/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.miside.click/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.miside.click/zh/" />
+  </url>
+
+  <url>
+    <loc>https://www.miside.click/about.html</loc>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.miside.click/ja/about.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.miside.click/ru/about.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.miside.click/fr/about.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.miside.click/ko/about.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.miside.click/zh/about.html" />
+  </url>
+
+  <url>
+    <loc>https://www.miside.click/characters.html</loc>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.miside.click/ja/characters.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.miside.click/ru/characters.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.miside.click/fr/characters.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.miside.click/ko/characters.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.miside.click/zh/characters.html" />
+  </url>
+
+  <!-- Continue with other pages -->
+  <url>
+    <loc>https://www.miside.click/features.html</loc>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.miside.click/ja/features.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.miside.click/ru/features.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.miside.click/fr/features.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.miside.click/ko/features.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.miside.click/zh/features.html" />
+  </url>
+
+  <url>
+    <loc>https://www.miside.click/faq.html</loc>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.miside.click/ja/faq.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.miside.click/ru/faq.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.miside.click/fr/faq.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.miside.click/ko/faq.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.miside.click/zh/faq.html" />
+  </url>
+
+  <url>
+    <loc>https://www.miside.click/trailer.html</loc>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.miside.click/ja/trailer.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.miside.click/ru/trailer.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.miside.click/fr/trailer.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.miside.click/ko/trailer.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.miside.click/zh/trailer.html" />
+  </url>
+
+  <!-- Legal pages -->
+  <url>
+    <loc>https://www.miside.click/privacy-policy.html</loc>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.miside.click/ja/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.miside.click/ru/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.miside.click/fr/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.miside.click/ko/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.miside.click/zh/privacy-policy.html" />
+  </url>
+
+  <url>
+    <loc>https://www.miside.click/terms-of-service.html</loc>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.miside.click/ja/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.miside.click/ru/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.miside.click/fr/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.miside.click/ko/terms-of-service.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.miside.click/zh/terms-of-service.html" />
+  </url>
+
+</urlset>

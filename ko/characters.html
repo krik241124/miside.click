@@ -70,104 +70,105 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="./index.html" class="text-gray-300 hover:text-accent transition-colors duration-300">Home</a>
-                    <a href="./characters.html" class="text-gray-300 hover:text-accent transition-colors duration-300">Characters</a>
-                    <a href="./features.html" class="text-gray-300 hover:text-accent transition-colors duration-300">Features</a>
-                    <a href="./faq.html" class="text-gray-300 hover:text-accent transition-colors duration-300">FAQ</a>
-
+                    <a href="./index.html" class="text-gray-300 hover:text-accent transition-colors duration-300">홈</a>
+                    <a href="./characters.html" class="text-gray-300 hover:text-accent transition-colors duration-300">캐릭터</a>
+                    <a href="./features.html" class="text-gray-300 hover:text-accent transition-colors duration-300">특징</a>
+                    <a href="./faq.html" class="text-gray-300 hover:text-accent transition-colors duration-300">자주 묻는 질문</a>
+                    
                     <!-- Language Dropdown -->
                     <div class="relative group">
                         <button class="flex items-center space-x-1 text-gray-300 hover:text-accent transition-colors duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe">
-                                <circle cx="12" cy="12" r="10" />
-                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                                <path d="M2 12h20" />
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                                <path d="M2 12h20"/>
                             </svg>
-                            <span>Language</span>
+                            <span>언어</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down">
-                                <path d="m6 9 6 6 6-6" />
+                                <path d="m6 9 6 6 6-6"/>
                             </svg>
                         </button>
-
+                        
                         <!-- Dropdown Menu -->
                         <div class="absolute right-0 mt-2 w-56 bg-gray-900/95 backdrop-blur-md rounded-xl border border-accent/10 shadow-lg shadow-accent/5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                             <div class="py-2 max-h-[400px] overflow-y-auto scrollbar-thin scrollbar-thumb-accent/10 scrollbar-track-transparent">
                                 <!-- Asia -->
-                                <div class="px-4 py-1 text-xs font-medium text-accent/70">Asia</div>
-                                <a href="/zh/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
-                                    <span class="w-6">🇨🇳</span>
-                                    <span class="ml-2">简体中文</span>
-                                </a>
-                                <a href="/ja/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
-                                    <span class="w-6">🇯🇵</span>
-                                    <span class="ml-2">日本語</span>
-                                </a>
+                                <div class="px-4 py-1 text-xs font-medium text-accent/70">아시아</div>
                                 <a href="/ko/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇰🇷</span>
                                     <span class="ml-2">한국어</span>
                                 </a>
+                                <a href="/ja/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
+                                    <span class="w-6">🇯🇵</span>
+                                    <span class="ml-2">일본어</span>
+                                </a>
+                                <a href="/zh/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
+                                    <span class="w-6">🇨🇳</span>
+                                    <span class="ml-2">중국어</span>
+                                </a>
                                 <a href="/vi/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇻🇳</span>
-                                    <span class="ml-2">Tiếng Việt</span>
+                                    <span class="ml-2">베트남어</span>
                                 </a>
 
                                 <!-- Europe -->
-                                <div class="px-4 py-1 text-xs font-medium text-accent/70 mt-2">Europe</div>
+                                <div class="px-4 py-1 text-xs font-medium text-accent/70 mt-2">유럽</div>
                                 <a href="/en/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇬🇧</span>
-                                    <span class="ml-2">English</span>
+                                    <span class="ml-2">영어</span>
                                 </a>
                                 <a href="/ru/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇷🇺</span>
-                                    <span class="ml-2">Русский</span>
+                                    <span class="ml-2">러시아어</span>
                                 </a>
                                 <a href="/fr/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇫🇷</span>
-                                    <span class="ml-2">Français</span>
+                                    <span class="ml-2">프랑스어</span>
                                 </a>
                                 <a href="/de/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇩🇪</span>
-                                    <span class="ml-2">Deutsch</span>
+                                    <span class="ml-2">독일어</span>
                                 </a>
                                 <a href="/it/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇮🇹</span>
-                                    <span class="ml-2">Italiano</span>
+                                    <span class="ml-2">이탈리아어</span>
                                 </a>
                                 <a href="/es/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇪🇸</span>
-                                    <span class="ml-2">Español (España)</span>
+                                    <span class="ml-2">스페인어 (스페인)</span>
                                 </a>
                                 <a href="/uk/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇺🇦</span>
-                                    <span class="ml-2">Українська</span>
+                                    <span class="ml-2">우크라이나어</span>
                                 </a>
                                 <a href="/tr/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇹🇷</span>
-                                    <span class="ml-2">Türkçe</span>
+                                    <span class="ml-2">터키어</span>
                                 </a>
                                 <a href="/pl/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇵🇱</span>
-                                    <span class="ml-2">Polski</span>
+                                    <span class="ml-2">폴란드어</span>
                                 </a>
                                 <a href="/pt/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇵🇹</span>
-                                    <span class="ml-2">Português (Portugal)</span>
+                                    <span class="ml-2">포르투갈어 (포르투갈)</span>
                                 </a>
 
                                 <!-- Americas -->
-                                <div class="px-4 py-1 text-xs font-medium text-accent/70 mt-2">Americas</div>
+                                <div class="px-4 py-1 text-xs font-medium text-accent/70 mt-2">아메리카</div>
                                 <a href="/br/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇧🇷</span>
-                                    <span class="ml-2">Português (Brasil)</span>
+                                    <span class="ml-2">포르투갈어 (브라질)</span>
                                 </a>
                                 <a href="/mx/" class="flex items-center px-4 py-2 text-gray-300 hover:text-accent hover:bg-accent/10 transition-colors duration-300">
                                     <span class="w-6">🇲🇽</span>
-                                    <span class="ml-2">Español (Latinoamérica)</span>
+                                    <span class="ml-2">스페인어 (라틴 아메리카)</span>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                
                 <!-- Mobile Menu Button -->
                 <button class="md:hidden text-gray-300 hover:text-accent transition-colors duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu">
@@ -182,38 +183,38 @@
         <!-- Mobile Menu (Hidden by default) -->
         <div class="hidden md:hidden bg-gray-900/95 backdrop-blur-md border-t border-accent/10">
             <div class="px-4 py-4 space-y-4">
-                <a href="#" class="block text-gray-300 hover:text-accent transition-colors duration-300">Home</a>
-                <a href="characters.html" class="block text-gray-300 hover:text-accent transition-colors duration-300">Characters</a>
-                <a href="features.html" class="block text-gray-300 hover:text-accent transition-colors duration-300">Features</a>
-                <a href="faq.html" class="block text-gray-300 hover:text-accent transition-colors duration-300">FAQ</a>
+                <a href="#" class="block text-gray-300 hover:text-accent transition-colors duration-300">홈</a>
+                <a href="characters.html" class="block text-gray-300 hover:text-accent transition-colors duration-300">캐릭터</a>
+                <a href="features.html" class="block text-gray-300 hover:text-accent transition-colors duration-300">특징</a>
+                <a href="faq.html" class="block text-gray-300 hover:text-accent transition-colors duration-300">자주 묻는 질문</a>
                 
                 <!-- Mobile Language Options -->
                 <div class="space-y-2">
-                    <div class="text-accent/70 text-sm font-medium">Language</div>
+                    <div class="text-accent/70 text-sm font-medium">언어</div>
                     <!-- Asia -->
-                    <div class="text-xs font-medium text-accent/50 mt-3 mb-1">Asia</div>
-                    <a href="/zh/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇨🇳 简体中文</a>
-                    <a href="/ja/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇯🇵 日本語</a>
+                    <div class="text-xs font-medium text-accent/50 mt-3 mb-1">아시아</div>
                     <a href="/ko/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇰🇷 한국어</a>
-                    <a href="/vi/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇻🇳 Tiếng Việt</a>
+                    <a href="/ja/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇯🇵 일본어</a>
+                    <a href="/zh/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇨🇳 중국어</a>
+                    <a href="/vi/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇻🇳 베트남어</a>
                     
                     <!-- Europe -->
-                    <div class="text-xs font-medium text-accent/50 mt-3 mb-1">Europe</div>
-                    <a href="/en/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇬🇧 English</a>
-                    <a href="/ru/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇷🇺 Русский</a>
-                    <a href="/fr/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇫🇷 Français</a>
-                    <a href="/de/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇩🇪 Deutsch</a>
-                    <a href="/it/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇮🇹 Italiano</a>
-                    <a href="/es/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇪🇸 Español (España)</a>
-                    <a href="/uk/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇺🇦 Українська</a>
-                    <a href="/tr/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇹🇷 Türkçe</a>
-                    <a href="/pl/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇵🇱 Polski</a>
-                    <a href="/pt/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇵🇹 Português (Portugal)</a>
+                    <div class="text-xs font-medium text-accent/50 mt-3 mb-1">유럽</div>
+                    <a href="/en/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇬🇧 영어</a>
+                    <a href="/ru/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇷🇺 러시아어</a>
+                    <a href="/fr/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇫🇷 프랑스어</a>
+                    <a href="/de/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇩🇪 독일어</a>
+                    <a href="/it/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇮🇹 이탈리아어</a>
+                    <a href="/es/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇪🇸 스페인어 (스페인)</a>
+                    <a href="/uk/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇺🇦 우크라이나어</a>
+                    <a href="/tr/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇹🇷 터키어</a>
+                    <a href="/pl/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇵🇱 폴란드어</a>
+                    <a href="/pt/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇵🇹 포르투갈어 (포르투갈)</a>
                     
                     <!-- Americas -->
-                    <div class="text-xs font-medium text-accent/50 mt-3 mb-1">Americas</div>
-                    <a href="/br/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇧🇷 Português (Brasil)</a>
-                    <a href="/mx/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇲🇽 Español (Latinoamérica)</a>
+                    <div class="text-xs font-medium text-accent/50 mt-3 mb-1">아메리카</div>
+                    <a href="/br/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇧🇷 포르투갈어 (브라질)</a>
+                    <a href="/mx/" class="block text-gray-300 hover:text-accent transition-colors duration-300">🇲🇽 스페인어 (라틴 아메리카)</a>
                 </div>
             </div>
         </div>
@@ -224,71 +225,72 @@
     <main class="pt-20 pb-16">
         <section class="py-24 relative">
             <div class="container mx-auto px-4">
-                <h2 class="title-font text-4xl md:text-5xl text-center gradient-text mb-8">Meet the Characters</h2>
-                <p class="text-xl text-center text-ghost/80 mb-16">Discover the unique personalities that make MiSide unforgettable</p>
+                <h2 class="title-font text-4xl md:text-5xl text-center gradient-text mb-8">캐릭터 소개</h2>
+                <p class="text-xl text-center text-ghost/80 mb-16">MiSide를 잊을 수 없게 만드는 독특한 성격을 발견하세요</p>
 
-                <!-- Character Features -->
+                <!-- 캐릭터 특징 -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
-                    <!-- Feature 1 -->
+                    <!-- 특징 1 -->
                     <div class="bg-secondary/20 rounded-2xl p-8 transform hover:scale-105 transition-all duration-300">
                         <div class="w-12 h-12 mb-6 text-accent">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-ghost mb-4">Diverse Personality Traits</h3>
-                        <p class="text-ghost/80">Each character brings their own unique story and personality to the MiSide universe.</p>
+                        <h3 class="text-xl font-bold text-ghost mb-4">다양한 성격 특성</h3>
+                        <p class="text-ghost/80">각각의 캐릭터는 MiSide 우주에 자신만의 독특한 이야기와 성격을 가져옵니다.</p>
                     </div>
 
-                    <!-- Feature 2 -->
+                    <!-- 특징 2 -->
                     <div class="bg-secondary/20 rounded-2xl p-8 transform hover:scale-105 transition-all duration-300">
                         <div class="w-12 h-12 mb-6 text-accent">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-ghost mb-4">Deep Character Development</h3>
-                        <p class="text-ghost/80">Experience how each character grows and evolves throughout their journey.</p>
+                        <h3 class="text-xl font-bold text-ghost mb-4">깊이 있는 캐릭터 개발</h3>
+                        <p class="text-ghost/80">각 캐릭터가 여행을 통해 성장하고 진화하는 모습을 경험하세요.</p>
                     </div>
 
-                    <!-- Feature 3 -->
+                    <!-- 특징 3 -->
                     <div class="bg-secondary/20 rounded-2xl p-8 transform hover:scale-105 transition-all duration-300">
                         <div class="w-12 h-12 mb-6 text-accent">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-ghost mb-4">Interactive Stories</h3>
-                        <p class="text-ghost/80">Your choices shape the relationships and outcomes with each character.</p>
+                        <h3 class="text-xl font-bold text-ghost mb-4">인터랙티브 스토리</h3>
+                        <p class="text-ghost/80">당신의 선택이 각 캐릭터와의 관계 및 결과에 영향을 미칩니다.</p>
                     </div>
                 </div>
 
+
                 <!-- Characters Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 p-4">
-                    <!-- Kind Mita -->
+                    <!-- 친절한 미타 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
-                            <!-- Image Container -->
+                            <!-- 이미지 컨테이너 -->
                             <div class="h-full w-full overflow-hidden">
                                 <img src="https://static.wikia.nocookie.net/miside/images/b/b8/Kind_Mita.png" 
-                                    alt="Kind Mita" 
+                                    alt="친절한 미타" 
                                     class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                                 <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                             
-                            <!-- Content Overlay -->
+                            <!-- 콘텐츠 오버레이 -->
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Kind Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">친절한 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        <!-- Replace with real character description -->
-                                        A gentle and caring version of Mita, representing the nurturing aspect of the character.
+                                        <!-- 실제 캐릭터 설명으로 대체 -->
+                                        캐릭터의 양육적 측면을 나타내는 부드럽고 배려 깊은 미타 버전.
                                     </p>
                                 </div>
                                 
-                                <!-- View Details Button -->
+                                <!-- 상세 정보 보기 버튼 -->
                                 <a href="https://miside.fandom.com/wiki/Kind_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">상세 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -297,27 +299,27 @@
                         </div>
                     </div>
 
-                    <!-- Mila -->
+                    <!-- 밀라 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
                             <div class="h-full w-full overflow-hidden">
                                 <img src="https://static.wikia.nocookie.net/miside/images/e/e8/Mila.png" 
-                                    alt="Mila" 
+                                    alt="밀라" 
                                     class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                                 <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Mila</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">밀라</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        <!-- Replace with real character description -->
-                                        A vivid character who may have significant narrative importance.
+                                        <!-- 실제 캐릭터 설명으로 대체 -->
+                                        중요한 서사적 역할을 할 가능성이 있는 생동감 넘치는 캐릭터.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Mila" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">상세 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -326,27 +328,26 @@
                         </div>
                     </div>
 
-
-                    <!-- Core Mita -->
+                    <!-- 코어 미타 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
                             <div class="h-full w-full overflow-hidden">
                                 <img src="https://static.wikia.nocookie.net/miside/images/9/92/Core_Mita.png" 
-                                    alt="Core Mita" 
+                                    alt="코어 미타" 
                                     class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                                 <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Core Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">코어 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        A version of Mita that represents its essential or primary design.
+                                        미타의 본질적이고 기본적인 디자인을 나타내는 버전.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Core_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">상세 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -355,26 +356,26 @@
                         </div>
                     </div>
 
-                    <!-- Creepy Mita -->
+                    <!-- 으스스한 미타 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
                             <div class="h-full w-full overflow-hidden">
                                 <img src="https://static.wikia.nocookie.net/miside/images/8/80/CreepyMita.png" 
-                                    alt="Creepy Mita" 
+                                    alt="으스스한 미타" 
                                     class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                                 <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Creepy Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">으스스한 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        Mita in a spooky or unsettling form, adding a haunting vibe to its appearance.
+                                        공포감이나 불쾌감을 주는 미타의 형태로, 그의 외모에 섬뜩한 분위기를 더합니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Creepy_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">상세 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -383,26 +384,26 @@
                         </div>
                     </div>
 
-                    <!-- Ghostly Mita -->
+                    <!-- 유령 미타 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
                             <div class="h-full w-full overflow-hidden">
                                 <img src="https://static.wikia.nocookie.net/miside/images/b/b1/GhostlyMita.png" 
-                                    alt="Ghostly Mita" 
+                                    alt="유령 미타" 
                                     class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                                 <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Ghostly Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">유령 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        A spectral or ghost-like form of Mita, emphasizing a translucent and eerie design that evokes an ethereal, otherworldly feel.
+                                        미타의 유령 또는 영적인 형태로, 투명하고 음산한 디자인을 강조하여 신비롭고 이세상 아닌 느낌을 줍니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Ghostly_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">상세 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -411,7 +412,9 @@
                         </div>
                     </div>
 
-                    <!-- Protagonist -->
+                    <!-- Similar structure for other characters -->
+                    
+                    <!-- 주인공 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
                             <div class="h-full w-full overflow-hidden">
@@ -422,15 +425,15 @@
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Protagonist</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">주인공</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        The main protagonist of the story, whose actions drive the narrative forward and whose decisions shape the world around them.
+                                        이야기의 주인공으로, 이들의 행동은 이야기를 전개시키고, 결정은 그들 주변의 세계를 형성합니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Protagonist" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">자세히 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -439,7 +442,7 @@
                         </div>
                     </div>
 
-                    <!-- Short Haired Mita -->
+                    <!-- 짧은 머리 미타 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
                             <div class="h-full w-full overflow-hidden">
@@ -450,15 +453,15 @@
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Short Haired Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">짧은 머리 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        A version of Mita with short hair, showcasing a unique style and personality that differentiates her from other versions.
+                                        짧은 머리를 가진 미타의 버전으로, 다른 버전들과 차별화되는 독특한 스타일과 개성을 보여줍니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Short_Haired_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">자세히 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -467,7 +470,7 @@
                         </div>
                     </div>
 
-                    <!-- Dummy Mita -->
+                    <!-- 더미 미타 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
                             <div class="h-full w-full overflow-hidden">
@@ -478,15 +481,15 @@
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Dummy Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">더미 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        A placeholder or experimental version of Mita, typically used for testing, development, or placeholder purposes.
+                                        테스트, 개발 또는 임시 대체 용도로 사용되는 미타의 자리 표시자 또는 실험적 버전입니다.
                                     </p>
                                 </div>
                                 
                                 <a href="http://miside.fandom.com/wiki/Dummy_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">자세히 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -495,7 +498,7 @@
                         </div>
                     </div>
 
-                    <!-- Anita -->
+                    <!-- 아니타 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
                             <div class="h-full w-full overflow-hidden">
@@ -506,15 +509,15 @@
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Anita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">아니타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        Anita is a vibrant and lively character known for her distinctive style and energy, adding a unique flair to the story.
+                                        아니타는 독특한 스타일과 에너지로 잘 알려진 활기찬 캐릭터로, 이야기의 개성을 더합니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Anita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">자세히 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -523,7 +526,7 @@
                         </div>
                     </div>
 
-                    <!-- Braided Hair Mita -->
+                    <!-- 브레이디드 헤어 미타 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
                             <div class="h-full w-full overflow-hidden">
@@ -534,15 +537,15 @@
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Braided Hair Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">브레이디드 헤어 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        This version of Mita features a unique braided hairstyle, showcasing a blend of elegance and modern design.
+                                        이 미타 버전은 독특한 브레이디드 헤어스타일을 특징으로 하며, 우아함과 현대적인 디자인을 결합한 모습을 보여줍니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Braided_Hair_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">자세히 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -562,15 +565,15 @@
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Sleepy Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">졸린 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        A relaxed or drowsy version of Mita, exuding calmness and tranquility.
+                                        편안하고 졸린 버전의 미타, 차분함과 평온함을 발산합니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Sleepy_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">자세히 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -590,15 +593,15 @@
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Chibi Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">치비 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        A cute and small version of Mita, characterized by its chibi art style.
+                                        귀엽고 작은 치비 스타일의 미타입니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Chibi_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">자세히 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -618,15 +621,15 @@
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Cool Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">쿨 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        Mita with a stylish and confident look, showcasing a trendy personality.
+                                        스타일리시하고 자신감 넘치는 모습의 미타, 트렌디한 개성을 보여줍니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Cool_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">자세히 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -646,15 +649,15 @@
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">2D Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">2D 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        A 2D version of the character Mita with simplistic yet charming features.
+                                        단순하지만 매력적인 특징을 가진 2D 버전의 미타입니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/2D_Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">자세히 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -674,15 +677,15 @@
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Chibis</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">치비 캐릭터</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        A collection of adorable chibi-style characters from the MiSide universe.
+                                        MiSide 세계에서 귀여운 치비 스타일 캐릭터들의 컬렉션입니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Chibis" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">자세히 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -691,26 +694,26 @@
                         </div>
                     </div>
 
-                    <!-- Crazy Mita -->
+                    <!-- 미친 미타 -->
                     <div class="group">
                         <div class="relative overflow-hidden rounded-xl border-2 border-accent/20 hover:border-accent transition-all duration-300 bg-secondary/5 h-[400px]">
                             <div class="h-full w-full overflow-hidden">
                                 <img src="https://static.wikia.nocookie.net/miside/images/7/7e/Mita.png" 
-                                    alt="Crazy Mita" 
+                                    alt="미친 미타" 
                                     class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                                 <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
                             
                             <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-[calc(100%-4rem)] group-hover:translate-y-0 transition-transform duration-300">
-                                <h3 class="text-xl font-bold text-white mb-3">Crazy Mita</h3>
+                                <h3 class="text-xl font-bold text-white mb-3">미친 미타</h3>
                                 <div class="overflow-hidden">
                                     <p class="text-sm text-white/90 leading-relaxed">
-                                        The unpredictable and wild side of Mita, representing chaos and untamed energy.
+                                        미타의 예측할 수 없고 거친 면, 혼돈과 억제되지 않은 에너지를 대표합니다.
                                     </p>
                                 </div>
                                 
                                 <a href="https://miside.fandom.com/wiki/Mita" target="_blank" class="mt-4 inline-flex items-center space-x-2 text-accent/90 group-hover:text-accent transition-colors duration-300">
-                                    <span class="text-sm font-semibold">View Details</span>
+                                    <span class="text-sm font-semibold">상세 보기</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                                     </svg>
@@ -720,72 +723,72 @@
                     </div>
 
                 </div>
-                <!-- Mita Character Introduction -->
+                <!-- 미타 캐릭터 소개 -->
                 <div class="max-w-6xl mx-auto bg-secondary/10 rounded-3xl p-8 md:p-12 space-y-16">
-                    <!-- Hero Section -->
+                    <!-- 히어로 섹션 -->
                     <section class="relative flex flex-col items-center text-center bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-8 md:p-12">
-                        <h2 class="text-4xl md:text-6xl font-bold gradient-text mb-6">Meet Mita</h2>
+                        <h2 class="text-4xl md:text-6xl font-bold gradient-text mb-6">미타를 만나보세요</h2>
                         <p class="text-lg text-ghost/90 leading-relaxed max-w-3xl">
-                            Mita is the central character in the psychological horror adventure game "MiSide," developed by AIHASTO. Initially presented as an adorable and seemingly innocent girl, Mita's character unfolds layers of complexity as the game progresses.
+                            미타는 AIHASTO가 개발한 심리 공포 어드벤처 게임 "MiSide"의 중심 캐릭터입니다. 처음에는 귀엽고 순진한 소녀로 등장하지만 게임이 진행됨에 따라 미타의 캐릭터는 점차 복잡하게 전개됩니다.
                         </p>
                         <img src="https://static.wikia.nocookie.net/miside/images/7/7e/Mita.png" 
-                            alt="Mita Main Character" 
+                            alt="미타 주인공" 
                             class="w-full max-w-sm mt-8 hover:scale-105 transition-transform duration-500 drop-shadow-[0_0_25px_rgba(255,255,255,0.3)]">
                     </section>
 
-                    <!-- Appearance Section -->
+                    <!-- 외모 섹션 -->
                     <section class="text-center">
-                        <h3 class="text-3xl md:text-4xl font-bold text-ghost/90 mb-6">Appearance</h3>
+                        <h3 class="text-3xl md:text-4xl font-bold text-ghost/90 mb-6">외모</h3>
                         <div class="bg-secondary/5 rounded-xl p-8 hover:bg-secondary/10 transition-colors duration-300">
                             <p class="text-lg text-ghost/80 leading-relaxed max-w-3xl mx-auto">
-                                Mita is depicted with purplish-blue hair styled in two low pigtails, adorned with blue scrunchies, and complemented by a red headband and hair clips. Her attire typically includes a long-sleeved red crop top, a blue skirt, red thigh-high stockings, blue heels, and a red ribbon around her neck.
+                                미타는 보라색과 파란색이 섞인 머리를 두 개의 낮은 포니테일로 묶고, 파란색 고무줄로 장식하며, 빨간색 머리띠와 머리핀을 착용하고 있습니다. 그녀의 의상은 일반적으로 빨간색 긴 소매 크롭 탑, 파란색 스커트, 빨간색 타이즈, 파란색 하이힐, 빨간 리본을 목에 두른 모습입니다.
                             </p>
                             <p class="text-lg text-ghost/80 leading-relaxed mt-4 max-w-3xl mx-auto">
-                                Throughout the game, Mita dons various outfits, including a Japanese school uniform, a vampire costume, and a Santa dress, each reflecting different facets of her character.
+                                게임을 진행하면서 미타는 일본 학교 유니폼, 뱀파이어 의상, 산타 드레스 등 다양한 의상을 입습니다. 각 의상은 미타의 다양한 성격을 반영합니다.
                             </p>
                         </div>
                     </section>
 
-                    <!-- Personality Section -->
+                    <!-- 성격 섹션 -->
                     <section class="text-center">
-                        <h3 class="text-3xl md:text-4xl font-bold text-ghost/90 mb-6">Personality</h3>
+                        <h3 class="text-3xl md:text-4xl font-bold text-ghost/90 mb-6">성격</h3>
                         <div class="bg-secondary/5 rounded-xl p-8 hover:bg-secondary/10 transition-colors duration-300">
                             <p class="text-lg text-ghost/80 leading-relaxed max-w-3xl mx-auto">
-                                On the surface, Mita exhibits a kind and bubbly demeanor, engaging players with her charm. However, as the narrative unfolds, she reveals a more complex and darker side, displaying traits of a deranged megalomaniac with a condescending and mocking attitude.
+                                표면적으로 미타는 친절하고 발랄한 성격을 보이며, 그녀의 매력으로 플레이어를 끌어들입니다. 그러나 이야기의 진행에 따라 그녀는 더 복잡하고 어두운 면모를 드러내며, 정신적인 거대주의와 비꼬는 태도를 가진 인물로 변합니다.
                             </p>
                             <p class="text-lg text-ghost/80 leading-relaxed mt-4 max-w-3xl mx-auto">
-                                This duality plays a significant role in the game's psychological horror elements, keeping players intrigued and unsettled.
+                                이 이중성은 게임의 심리적 공포 요소에서 중요한 역할을 하며, 플레이어를 계속해서 흥미롭게 만들고 불안하게 만듭니다.
                             </p>
                         </div>
                     </section>
 
-                    <!-- Multiple Facets Section -->
+                    <!-- 다양한 면 섹션 -->
                     <section class="text-center">
-                        <h3 class="text-3xl md:text-4xl font-bold text-ghost/90 mb-6">Multiple Facets of Mita</h3>
+                        <h3 class="text-3xl md:text-4xl font-bold text-ghost/90 mb-6">미타의 다양한 면</h3>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div class="bg-secondary/5 rounded-xl p-8 hover:bg-secondary/10 transition-colors duration-300">
-                                <h4 class="text-2xl font-semibold text-ghost/90 mb-4">Role in "MiSide"</h4>
+                                <h4 class="text-2xl font-semibold text-ghost/90 mb-4">"MiSide"에서의 역할</h4>
                                 <p class="text-lg text-ghost/80 leading-relaxed">
-                                    Mita serves as both a companion and an antagonist within the game's narrative. Her interactions with the player are central to the unfolding story, with her true nature and intentions gradually coming to light.
+                                    미타는 게임 내에서 동료이자 적으로 등장합니다. 그녀와의 상호작용은 이야기 전개에 핵심적이며, 그녀의 진짜 본성과 의도가 점차 드러납니다.
                                 </p>
                             </div>
                             <div class="bg-secondary/5 rounded-xl p-8 hover:bg-secondary/10 transition-colors duration-300">
-                                <h4 class="text-2xl font-semibold text-ghost/90 mb-4">Voice Acting</h4>
+                                <h4 class="text-2xl font-semibold text-ghost/90 mb-4">목소리 연기</h4>
                                 <p class="text-lg text-ghost/80 leading-relaxed">
-                                    In the Japanese version of the game, Mita is voiced by Kana Hanaiwa, known for her role as Lilja Katsuragi in "Gakuen Idolmaster," adding a layer of authenticity and engagement to her character.
+                                    일본어 버전에서는 미타의 목소리가 "학원 아이돌마스터"에서 리르자 카츠라기 역할로 유명한 하나이카나 (Kana Hanaiwa)에 의해 제공됩니다. 그녀의 연기는 캐릭터의 진정성을 더해줍니다.
                                 </p>
                             </div>
                         </div>
                     </section>
 
-                    <!-- Character Showcase Section -->
+                    <!-- 캐릭터 쇼케이스 섹션 -->
                     <section class="text-center">
-                        <h3 class="text-3xl md:text-4xl font-bold text-ghost/90 mb-6">Character Showcase</h3>
+                        <h3 class="text-3xl md:text-4xl font-bold text-ghost/90 mb-6">캐릭터 쇼케이스</h3>
                         <div class="max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg">
                             <iframe 
                                 class="w-full aspect-video rounded-lg" 
                                 src="https://www.youtube.com/embed/dFfydvs3Upw" 
-                                title="Mita Character Showcase"
+                                title="미타 캐릭터 쇼케이스"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen>
@@ -793,15 +796,16 @@
                         </div>
                     </section>
 
-                    <!-- Conclusion Section -->
+                    <!-- 결론 섹션 -->
                     <section class="text-center">
                         <div class="bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 rounded-xl p-8 md:p-12">
                             <p class="text-lg text-ghost/90 leading-relaxed max-w-3xl mx-auto">
-                                Mita's character is a cornerstone of "MiSide," driving the narrative and providing players with a complex and engaging figure to interact with. Her multifaceted personality and the various versions encountered throughout the game contribute significantly to the psychological depth and horror elements that define the "MiSide" experience.
+                                미타의 캐릭터는 "MiSide"의 핵심으로, 이야기를 이끌어 가며 플레이어에게 복잡하고 매력적인 상호작용을 제공합니다. 그녀의 다면적인 성격과 게임을 통해 만나는 다양한 모습은 게임의 심리적 깊이와 공포 요소에 크게 기여합니다.
                             </p>
                         </div>
                     </section>
                 </div>
+
             </div>
         </section>
     </main>
@@ -815,30 +819,30 @@
                 <!-- Brand -->
                 <div class="col-span-1 md:col-span-2">
                     <a href="./index.html" class="text-2xl font-bold gradient-text mb-4 inline-block">miside.click</a>
-                    <p class="text-ghost/70 mb-6">Experience the psychological horror adventure that blends reality and simulation. Join our community and uncover the mysteries of MiSide.</p>
+                    <p class="text-ghost/70 mb-6">현실과 시뮬레이션을 결합한 심리적 공포 모험을 경험하세요. 우리의 커뮤니티에 가입하고 MiSide의 미스터리를 밝혀보세요.</p>
                     <a href="https://github.com/krik241124/miside.click" 
-                       class="inline-flex items-center space-x-2 text-ghost/60 hover:text-accent transition-colors duration-300">
+                    class="inline-flex items-center space-x-2 text-ghost/60 hover:text-accent transition-colors duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                         </svg>
-                        <span>View on GitHub</span>
+                        <span>GitHub에서 보기</span>
                     </a>
                 </div>
 
                 <!-- Quick Links -->
                 <div>
-                    <h3 class="text-lg font-semibold text-ghost mb-6">Quick Links</h3>
+                    <h3 class="text-lg font-semibold text-ghost mb-6">빠른 링크</h3>
                     <ul class="space-y-4">
-                        <li><a href="./about.html" class="text-ghost/70 hover:text-accent transition-colors duration-300">About Game</a></li>
-                        <li><a href="./characters.html" class="text-ghost/70 hover:text-accent transition-colors duration-300">Characters</a></li>
-                        <li><a href="./features.html" class="text-ghost/70 hover:text-accent transition-colors duration-300">Features</a></li>
-                        <li><a href="./faq.html" class="text-ghost/70 hover:text-accent transition-colors duration-300">FAQ</a></li>
+                        <li><a href="./about.html" class="text-ghost/70 hover:text-accent transition-colors duration-300">게임 소개</a></li>
+                        <li><a href="./characters.html" class="text-ghost/70 hover:text-accent transition-colors duration-300">캐릭터</a></li>
+                        <li><a href="./features.html" class="text-ghost/70 hover:text-accent transition-colors duration-300">특징</a></li>
+                        <li><a href="./faq.html" class="text-ghost/70 hover:text-accent transition-colors duration-300">자주 묻는 질문</a></li>
                     </ul>
                 </div>
 
                 <!-- Languages -->
                 <div>
-                    <h3 class="text-lg font-semibold text-ghost mb-6">Languages</h3>
+                    <h3 class="text-lg font-semibold text-ghost mb-6">언어</h3>
                     <ul class="grid grid-cols-2 gap-y-4 gap-x-6">
                         <li><a href="/" class="text-ghost/70 hover:text-accent transition-colors duration-300">English</a></li>
                         <li><a href="/zh/" class="text-ghost/70 hover:text-accent transition-colors duration-300">简体中文</a></li>
@@ -863,15 +867,16 @@
             <!-- Bottom Section -->
             <div class="pt-8 border-t border-accent/10">
                 <div class="flex flex-col md:flex-row justify-between items-center">
-                    <p class="text-ghost/60 text-sm mb-4 md:mb-0">© 2024 miside.click. All rights reserved.</p>
+                    <p class="text-ghost/60 text-sm mb-4 md:mb-0">© 2024 miside.click. 모든 권리 보유.</p>
                     <div class="flex space-x-6">
-                        <a href="./privacy-policy.html" class="text-ghost/60 hover:text-accent text-sm transition-colors duration-300">Privacy Policy</a>
-                        <a href="./terms-of-service.html" class="text-ghost/60 hover:text-accent text-sm transition-colors duration-300">Terms of Service</a>
-                        <a href="./contact.html" class="text-ghost/60 hover:text-accent text-sm transition-colors duration-300">Contact</a>
+                        <a href="./privacy-policy.html" class="text-ghost/60 hover:text-accent text-sm transition-colors duration-300">개인정보 처리방침</a>
+                        <a href="./terms-of-service.html" class="text-ghost/60 hover:text-accent text-sm transition-colors duration-300">이용약관</a>
+                        <a href="./contact.html" class="text-ghost/60 hover:text-accent text-sm transition-colors duration-300">연락처</a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
 </body>
 </html>
